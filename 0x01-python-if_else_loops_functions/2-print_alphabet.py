@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for alphabets in range(26):
-    print("{}".format(chr(alphabets)), end="")
+for i in range(26):
+    print("{}".format(chr(i)), end="")
