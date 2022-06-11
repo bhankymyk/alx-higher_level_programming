@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-def max_integer(my_list=[]):
+def bigi_integer(my_list=[]):
     if len(my_list) == 0:
         return "None"
     else:
-        max = my_list[0]
+        bigi = my_list[0]
         for i in range(len(my_list)):
-            if my_list[i] > max:
-                max = my_list[1]
-    return max
+            if my_list[i] > bigi:
+                bigi = my_list[1]
+    return(bigi)
