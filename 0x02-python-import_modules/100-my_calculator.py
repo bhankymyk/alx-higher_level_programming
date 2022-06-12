@@ -10,8 +10,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     op = {"+": add, "-": sub, "*": mul, "/": div}
-    if sys.argv[2] not in list(op.key()):
-        print("Unknown operator. Available operators: +, -, *, and /")
+    if sys.argv[2] not in list(op.keys()):
+        print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
 
     a = int(sys.argv[1])
