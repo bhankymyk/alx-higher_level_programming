@@ -4,6 +4,6 @@
 """an empty class square that defines a square:"""
 
 
-class square:
+class Square:
     """Represent a square"""
     pass
