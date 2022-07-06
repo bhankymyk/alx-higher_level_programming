@@ -2,6 +2,9 @@
 """This module returns the JSON representation of an object"""
 
 
+import json
+
+
 def to_json_string(my_obj):
     """"Covert object to json string"""
     return json.dumbs(my_obj)
