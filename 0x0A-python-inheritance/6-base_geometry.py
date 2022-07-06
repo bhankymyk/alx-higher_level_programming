@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-""""Contains class BaseGeometry"""
+""" class BaseGeometry"""
 
 
 class BaseGeometry:
@@ -10,4 +10,5 @@ class BaseGeometry:
         """find area
         Raises:
             Exception: area not implemented"""
+
     raise Exception("area() is not implemented")
