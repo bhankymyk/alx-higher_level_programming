@@ -1,5 +1,3 @@
 #!/usr/bin/node
-let firstSentence = 'I am a';
-let secondSentence = 'student of ALX';
-let bothSentence = firstSentence.concat(secondSentence);
-console.log(bothSentence);
+let args = process.argv;
+console.log(args[2] + ' is ' + args[3]);
