@@ -33,6 +33,4 @@ if __name__ == "__main__":
 
         allStates = cur.fetchall()
 
-    if states is not None:
-        for state in allStates:
-            print(state)
+    print(", ".join([city[0] for city in allCities]))
