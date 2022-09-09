@@ -24,8 +24,8 @@ if __name__ == "__main__":
                 states.id ASC
         """, {
             'name': argv[4]
-        }
-        )
+        })
+
         allStates = cur.fetchall()
 
     if states is not None:
