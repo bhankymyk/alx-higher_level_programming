@@ -31,4 +31,3 @@ if __name__ == "__main__":
     if states is not None:
         for state in allStates:
             print(state)
-            
