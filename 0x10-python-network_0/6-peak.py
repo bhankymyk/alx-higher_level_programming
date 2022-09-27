@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
 """
+
+
 def find_peak(A):
     """find pick element"""
     if A == []:
