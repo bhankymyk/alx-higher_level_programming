@@ -4,6 +4,5 @@ request ('https://swapi-api.hbtn.io/api/films/'.concat(process.argv[2]),function
         if (err) {
           console.log(err);
         }
-        const info = JSON.parse(body);
-        console.log(info.title);
+        console.log(JSON.parse(body).title);
       });
